@@ -147,7 +147,7 @@ function draw() {
 var volume = map(analyzer.getLevel(),0,1,0,100);
 var i=Math.round(volume);
 //translate(-100,-100);
-rotate(-i/80);
+rotate(-i/70);
 image(myImage1,0,0);
 
 }
