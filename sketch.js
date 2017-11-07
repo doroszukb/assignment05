@@ -151,7 +151,7 @@ rotate(-i/70);
 image(myImage1,0,0);
 
 }
-function recta(a,b,c,d,e) {
+function recta(a,b,c,d) {
 volume = map(analyzer.getLevel(),0,1,0,755);
 var i=Math.round(volume);
 //i=i+e;
